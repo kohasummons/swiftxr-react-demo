@@ -20,6 +20,7 @@ const ProductDetails = ({ description, title, price, swiftxrUrl }) => {
           <div style={{ width: '100%', height: '480px' }}>
             <iframe
               title='Valzo'
+              loading='lazy'
               allowFullScreen
               allow='fullscreen; autoplay; xr-spatial-tracking; camera; midi; encrypted-media;'
               width='100%'
